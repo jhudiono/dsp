@@ -2,6 +2,8 @@
 
 
     # [177.8 cm, 185.42 cm]
+    mu = 178
+    sigma = 7.7
     lower = thinkstats2.EvalNormalCdf(177.8, mu, sigma)
     upper = thinkstats2.EvalNormalCdf(185.42, mu, sigma)
     print("{0:.0%}".format(upper - lower))
